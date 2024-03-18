@@ -1,0 +1,160 @@
+
+* {
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 318px;
+    margin: auto;
+    margin-top: 95px;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.image-section {
+    height: 35%;
+    width: fit-content;
+    position: relative;
+}
+
+.image-section .SecondImg {
+    position: absolute;
+    display: block;
+    top: 0;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity .2s;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+
+.SecondImg:hover{
+    opacity: 0.23;
+    background-color: hsl(178, 100%, 50%);
+   
+}  
+
+.image-section .FirstImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.text h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    width: fit-content;
+}
+
+.numbers {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ETH {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ETH img {
+    margin-top: 0;
+}
+
+.ETH p {
+    color: hsl(178, 100%, 50%);
+    margin-left: 5px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.time img {
+    margin-top: 0;
+}
+
+.time p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+}
+
+body > main > div > hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottom-section img {
+    margin-top: 0;
+
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.bottom-section p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 1rem;
+}
+
+.bottom-section a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.bottom-section a:hover {
+    color: hsl(178, 100%, 50%);
+}
